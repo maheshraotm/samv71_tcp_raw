@@ -1,0 +1,3021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <itemPath>../src/ASF/common/boards/board.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="services" displayName="services" projectFiles="true">
+              <logicalFolder name="clock" displayName="clock" projectFiles="true">
+                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/clock/samv71/genclk.h</itemPath>
+                  <itemPath>../src/ASF/common/services/clock/samv71/pll.h</itemPath>
+                  <itemPath>../src/ASF/common/services/clock/samv71/sysclk.h</itemPath>
+                  <itemPath>../src/ASF/common/services/clock/samv71/osc.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common/services/clock/pll.h</itemPath>
+                <itemPath>../src/ASF/common/services/clock/genclk.h</itemPath>
+                <itemPath>../src/ASF/common/services/clock/sysclk.h</itemPath>
+                <itemPath>../src/ASF/common/services/clock/osc.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="gpio" displayName="gpio" projectFiles="true">
+                <logicalFolder name="sam_gpio" displayName="sam_gpio" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/gpio/sam_gpio/sam_gpio.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common/services/gpio/gpio.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="ioport" displayName="ioport" projectFiles="true">
+                <logicalFolder name="sam" displayName="sam" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/ioport/sam/ioport_pio.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common/services/ioport/ioport.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="serial" displayName="serial" projectFiles="true">
+                <logicalFolder name="sam_uart" displayName="sam_uart" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/serial/sam_uart/uart_serial.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/common/services/serial/serial.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                <itemPath>../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+                <logicalFolder name="stdio_serial"
+                               displayName="stdio_serial"
+                               projectFiles="true">
+                  <itemPath>../src/ASF/common/utils/stdio/stdio_serial/stdio_serial.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <itemPath>../src/ASF/common/utils/interrupt.h</itemPath>
+              <itemPath>../src/ASF/common/utils/parts.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="sam" displayName="sam" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <logicalFolder name="samv71_xplained_ultra"
+                             displayName="samv71_xplained_ultra"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam/boards/samv71_xplained_ultra/led.h</itemPath>
+                <itemPath>../src/ASF/sam/boards/samv71_xplained_ultra/samv71_xplained_ultra.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="components" displayName="components" projectFiles="true">
+              <logicalFolder name="ethernet_phy"
+                             displayName="ethernet_phy"
+                             projectFiles="true">
+                <logicalFolder name="ksz8061rnb" displayName="ksz8061rnb" projectFiles="true">
+                  <itemPath>../src/ASF/sam/components/ethernet_phy/ksz8061rnb/ethernet_phy.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/sam/components/ethernet_phy/documentation.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+              <logicalFolder name="gmac" displayName="gmac" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/gmac/gmac.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mpu" displayName="mpu" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/mpu/mpu.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pio" displayName="pio" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/pio/pio.h</itemPath>
+                <itemPath>../src/ASF/sam/drivers/pio/pio_handler.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pmc" displayName="pmc" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/pmc/pmc.h</itemPath>
+                <itemPath>../src/ASF/sam/drivers/pmc/sleep.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/tc/tc.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="uart" displayName="uart" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/uart/uart.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/usart/usart.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="cmsis" displayName="cmsis" projectFiles="true">
+                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
+                  <logicalFolder name="include" displayName="include" projectFiles="true">
+                    <logicalFolder name="component" displayName="component" projectFiles="true">
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/smc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/usbhs.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/gmac.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/gpbr.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/efc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/icm.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/spi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/pwm.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/afec.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/pmc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/qspi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/chipid.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/sdramc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/ssc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/isi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/wdt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/pio.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/uart.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/mcan.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/dacc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/rtt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/rswdt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/rstc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/matrix.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/xdmac.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/rtc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/utmi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/i2sc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/trng.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/supc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/aes.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/tc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/twihs.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/mlb.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/hsmci.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/usart.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/component/acc.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="instance" displayName="instance" projectFiles="true">
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/gmac.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/chipid.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/usart1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/tc3.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/tc2.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/rtt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/wdt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/rswdt.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/efc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/supc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/tc1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/utmi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/dacc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/piob.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/acc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/uart1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/uart0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/uart3.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/uart2.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/piod.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/uart4.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/matrix.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/spi0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/usbhs.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/icm.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/qspi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/trng.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/isi.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/aes.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/xdmac.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/ssc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/gpbr.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/tc0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/sdramc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/rtc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/usart2.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/smc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/hsmci.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pioc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pioa.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/mlb.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pioe.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs2.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/afec1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/afec0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/spi1.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pmc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/rstc.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/usart0.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm0.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="pio" displayName="pio" projectFiles="true">
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21b.h</itemPath>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n19.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q19.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j19.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j20b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q19b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n21.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q21b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q21.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j21.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n19b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n21b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q20b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n20.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71q20.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j20.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j19b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71j21b.h</itemPath>
+                    <itemPath>../src/ASF/sam/utils/cmsis/samv71/include/samv71n20b.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="source" displayName="source" projectFiles="true">
+                    <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/source/templates/system_samv71.h</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="fpu" displayName="fpu" projectFiles="true">
+                <itemPath>../src/ASF/sam/utils/fpu/fpu.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="header_files"
+                             displayName="header_files"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam/utils/header_files/io.h</itemPath>
+              </logicalFolder>
+              <logicalFolder name="preprocessor"
+                             displayName="preprocessor"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam/utils/preprocessor/stringz.h</itemPath>
+                <itemPath>../src/ASF/sam/utils/preprocessor/preprocessor.h</itemPath>
+                <itemPath>../src/ASF/sam/utils/preprocessor/mrepeat.h</itemPath>
+                <itemPath>../src/ASF/sam/utils/preprocessor/tpaste.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/ASF/sam/utils/compiler.h</itemPath>
+              <itemPath>../src/ASF/sam/utils/status_codes.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="thirdparty" displayName="thirdparty" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/arm_const_structs.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/arm_math.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/core_cm7.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Include/arm_common_tables.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+              <logicalFolder name="lwip-1.4.1" displayName="lwip-1.4.1" projectFiles="true">
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <logicalFolder name="include" displayName="include" projectFiles="true">
+                    <logicalFolder name="ipv4" displayName="ipv4" projectFiles="true">
+                      <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_addr.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/icmp.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/autoip.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/igmp.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet_chksum.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet.h</itemPath>
+                        <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_frag.h</itemPath>
+                      </logicalFolder>
+                    </logicalFolder>
+                    <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcpip.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/raw.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/arch.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netbuf.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dhcp.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/stats.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/timers.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/udp.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/debug.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/init.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sys.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_msg.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netif.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/mem.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp_std.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sockets.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/err.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp_impl.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/def.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/opt.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_structs.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dns.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/pbuf.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api_msg.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sio.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netifapi.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_asn1.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netdb.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/ppp_oe.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/etharp.h</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+                <logicalFolder name="test" displayName="test" projectFiles="true">
+                  <logicalFolder name="unit" displayName="unit" projectFiles="true">
+                    <logicalFolder name="tcp" displayName="tcp" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="udp" displayName="udp" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.h</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_check.h</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="lwip-port-1.4.1"
+                             displayName="lwip-port-1.4.1"
+                             projectFiles="true">
+                <logicalFolder name="sam" displayName="sam" projectFiles="true">
+                  <logicalFolder name="include" displayName="include" projectFiles="true">
+                    <logicalFolder name="arch" displayName="arch" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/perf.h</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/cc.h</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif/samv71_gmac.h</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="config" displayName="config" projectFiles="true">
+          <itemPath>../src/config/conf_uart_serial.h</itemPath>
+          <itemPath>../src/config/conf_board.h</itemPath>
+          <itemPath>../src/config/conf_clock.h</itemPath>
+          <itemPath>../src/config/lwipopts.h</itemPath>
+          <itemPath>../src/config/conf_eth.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="network" displayName="network" projectFiles="true">
+          <logicalFolder name="httpserver" displayName="httpserver" projectFiles="true">
+            <itemPath>../src/network/httpserver/httpd.h</itemPath>
+            <itemPath>../src/network/httpserver/fsdata.h</itemPath>
+            <itemPath>../src/network/httpserver/fs.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/network/ethernet.h</itemPath>
+          <itemPath>../src/network/timer_mgt.h</itemPath>
+        </logicalFolder>
+        <itemPath>../src/echo.h</itemPath>
+        <itemPath>../src/asf.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="sam" displayName="sam" projectFiles="true">
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="linker_scripts"
+                             displayName="linker_scripts"
+                             projectFiles="true">
+                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
+                  <logicalFolder name="samv71q21" displayName="samv71q21" projectFiles="true">
+                    <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                      <itemPath>../src/ASF/sam/utils/linker_scripts/samv71/samv71q21/gcc/flash.ld</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="ASF" displayName="ASF" projectFiles="true">
+          <logicalFolder name="common" displayName="common" projectFiles="true">
+            <logicalFolder name="services" displayName="services" projectFiles="true">
+              <logicalFolder name="clock" displayName="clock" projectFiles="true">
+                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
+                  <itemPath>../src/ASF/common/services/clock/samv71/sysclk.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="serial" displayName="serial" projectFiles="true">
+                <itemPath>../src/ASF/common/services/serial/usart_serial.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="interrupt" displayName="interrupt" projectFiles="true">
+                <itemPath>../src/ASF/common/utils/interrupt/interrupt_sam_nvic.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+                <itemPath>../src/ASF/common/utils/stdio/read.c</itemPath>
+                <itemPath>../src/ASF/common/utils/stdio/write.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="sam" displayName="sam" projectFiles="true">
+            <logicalFolder name="boards" displayName="boards" projectFiles="true">
+              <logicalFolder name="samv71_xplained_ultra"
+                             displayName="samv71_xplained_ultra"
+                             projectFiles="true">
+                <itemPath>../src/ASF/sam/boards/samv71_xplained_ultra/init.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="components" displayName="components" projectFiles="true">
+              <logicalFolder name="ethernet_phy"
+                             displayName="ethernet_phy"
+                             projectFiles="true">
+                <logicalFolder name="ksz8061rnb" displayName="ksz8061rnb" projectFiles="true">
+                  <itemPath>../src/ASF/sam/components/ethernet_phy/ksz8061rnb/ethernet_phy.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
+              <logicalFolder name="gmac" displayName="gmac" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/gmac/gmac_phy.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mpu" displayName="mpu" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/mpu/mpu.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pio" displayName="pio" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/pio/pio.c</itemPath>
+                <itemPath>../src/ASF/sam/drivers/pio/pio_handler.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="pmc" displayName="pmc" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/pmc/pmc.c</itemPath>
+                <itemPath>../src/ASF/sam/drivers/pmc/sleep.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="tc" displayName="tc" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/tc/tc.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="uart" displayName="uart" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/uart/uart.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
+                <itemPath>../src/ASF/sam/drivers/usart/usart.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="utils" displayName="utils" projectFiles="true">
+              <logicalFolder name="cmsis" displayName="cmsis" projectFiles="true">
+                <logicalFolder name="samv71" displayName="samv71" projectFiles="true">
+                  <logicalFolder name="source" displayName="source" projectFiles="true">
+                    <logicalFolder name="templates" displayName="templates" projectFiles="true">
+                      <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                        <itemPath>../src/ASF/sam/utils/cmsis/samv71/source/templates/gcc/startup_samv71.c</itemPath>
+                      </logicalFolder>
+                      <itemPath>../src/ASF/sam/utils/cmsis/samv71/source/templates/system_samv71.c</itemPath>
+                    </logicalFolder>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder name="make" displayName="make" projectFiles="true">
+                <itemPath>../src/ASF/sam/utils/make/Makefile.sam.in</itemPath>
+              </logicalFolder>
+              <logicalFolder name="syscalls" displayName="syscalls" projectFiles="true">
+                <logicalFolder name="gcc" displayName="gcc" projectFiles="true">
+                  <itemPath>../src/ASF/sam/utils/syscalls/gcc/syscalls.c</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="thirdparty" displayName="thirdparty" projectFiles="true">
+            <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+              <logicalFolder name="Lib" displayName="Lib" projectFiles="true">
+                <logicalFolder name="GCC" displayName="GCC" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math_softfp.a</itemPath>
+                  <itemPath>../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math.a</itemPath>
+                </logicalFolder>
+                <itemPath>../src/ASF/thirdparty/CMSIS/Lib/license.txt</itemPath>
+              </logicalFolder>
+              <itemPath>../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt</itemPath>
+              <itemPath>../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf</itemPath>
+              <itemPath>../src/ASF/thirdparty/CMSIS/README.txt</itemPath>
+            </logicalFolder>
+            <logicalFolder name="lwip" displayName="lwip" projectFiles="true">
+              <logicalFolder name="lwip-1.4.1" displayName="lwip-1.4.1" projectFiles="true">
+                <logicalFolder name="doc" displayName="doc" projectFiles="true">
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/rawapi.txt</itemPath>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/snmp_agent.txt</itemPath>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/FILES</itemPath>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/contrib.txt</itemPath>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/savannah.txt</itemPath>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/sys_arch.txt</itemPath>
+                </logicalFolder>
+                <logicalFolder name="src" displayName="src" projectFiles="true">
+                  <logicalFolder name="api" displayName="api" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/api_lib.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/api_msg.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/err.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/netbuf.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/netdb.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/netifapi.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/sockets.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/api/tcpip.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="core" displayName="core" projectFiles="true">
+                    <logicalFolder name="ipv4" displayName="ipv4" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/autoip.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/icmp.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/igmp.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/inet.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/inet_chksum.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/ip.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/ip_addr.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/ipv4/ip_frag.c</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/def.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/dhcp.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/dns.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/lwip_init.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/lwip_timers_141.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/mem.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/memp.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/netif.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/pbuf.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/raw.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/stats.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/sys.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/tcp.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/tcp_in.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/tcp_out.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/core/udp.c</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/netif/etharp.c</itemPath>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/netif/FILES</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/src/FILES</itemPath>
+                </logicalFolder>
+                <logicalFolder name="test" displayName="test" projectFiles="true">
+                  <logicalFolder name="unit" displayName="unit" projectFiles="true">
+                    <logicalFolder name="tcp" displayName="tcp" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.c</itemPath>
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.c</itemPath>
+                    </logicalFolder>
+                    <logicalFolder name="udp" displayName="udp" projectFiles="true">
+                      <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.c</itemPath>
+                    </logicalFolder>
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_unittests.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+                <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/FILES</itemPath>
+                <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/CHANGELOG</itemPath>
+                <itemPath>../src/ASF/thirdparty/lwip/lwip-1.4.1/README</itemPath>
+              </logicalFolder>
+              <logicalFolder name="lwip-port-1.4.1"
+                             displayName="lwip-port-1.4.1"
+                             projectFiles="true">
+                <logicalFolder name="sam" displayName="sam" projectFiles="true">
+                  <logicalFolder name="netif" displayName="netif" projectFiles="true">
+                    <itemPath>../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/netif/samv71_gmac.c</itemPath>
+                  </logicalFolder>
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder name="network" displayName="network" projectFiles="true">
+          <logicalFolder name="httpserver" displayName="httpserver" projectFiles="true">
+            <itemPath>../src/network/httpserver/fs.c</itemPath>
+            <itemPath>../src/network/httpserver/fsdata.c</itemPath>
+            <itemPath>../src/network/httpserver/httpd.c</itemPath>
+          </logicalFolder>
+          <itemPath>../src/network/ethernet.c</itemPath>
+          <itemPath>../src/network/timer_mgt.c</itemPath>
+        </logicalFolder>
+        <itemPath>../src/echo.c</itemPath>
+        <itemPath>../src/raw_http_basic_example.c</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMV71Q21B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAMV71_DFP" vendor="Microchip" version="4.2.60"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../src/ASF/common/boards/board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/genclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/osc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/pll.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/genclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/osc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/pll.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/sysclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/sysclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/gpio/gpio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/gpio/sam_gpio/sam_gpio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/ioport/ioport.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/ioport/sam/ioport_pio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/sam_uart/uart_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/parts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/stdio/stdio_serial/stdio_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/boards/samv71_xplained_ultra/led.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/boards/samv71_xplained_ultra/samv71_xplained_ultra.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/components/ethernet_phy/documentation.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/components/ethernet_phy/ksz8061rnb/ethernet_phy.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/gmac/gmac.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/mpu/mpu.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pio/pio.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pio/pio_handler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pmc/pmc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pmc/sleep.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/tc/tc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/uart/uart.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/usart/usart.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/acc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/aes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/afec.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/chipid.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/dacc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/efc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/gpbr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/hsmci.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/i2sc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/icm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/isi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/matrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/mcan.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/mlb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pmc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pwm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/qspi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rstc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rswdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rtt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/sdramc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/smc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/spi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/ssc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/supc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/tc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/trng.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/twihs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/uart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/usart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/usbhs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/utmi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/xdmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/acc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/aes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/afec0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/afec1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/chipid.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/dacc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/efc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/gpbr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/hsmci.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/icm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/isi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/matrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mlb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioa.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/piob.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/piod.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioe.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pmc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/qspi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rstc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rswdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rtt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/sdramc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/smc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/spi0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/spi1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/ssc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/supc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/trng.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usbhs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/utmi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/xdmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/source/templates/system_samv71.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/compiler.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/fpu/fpu.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/header_files/io.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/linker_scripts/samv71/samv71q21/gcc/flash.ld"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/make/Makefile.sam.in"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/mrepeat.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/preprocessor.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/stringz.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/tpaste.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/status_codes.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_common_tables.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_const_structs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_math.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/core_cm7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math_softfp.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/license.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/README.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/CHANGELOG"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/README"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/contrib.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/rawapi.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/savannah.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/snmp_agent.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/sys_arch.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/autoip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/icmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/igmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet_chksum.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_addr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_frag.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api_msg.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/arch.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/debug.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/def.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dhcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dns.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/err.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/mem.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp_std.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netbuf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netdb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netif.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netifapi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/opt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/pbuf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/raw.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_asn1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_msg.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_structs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sockets.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/stats.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp_impl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcpip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/timers.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/udp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/etharp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/ppp_oe.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/netif/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_check.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_unittests.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/cc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/perf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif/samv71_gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/asf.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_clock.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_eth.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_uart_serial.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/lwipopts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/ethernet.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/fs.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/fsdata.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/httpd.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/timer_mgt.h" ex="true" overriding="false">
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+        <appendMe value="-DARM_MATH_CM7=true -DBOARD=SAMV71_XPLAINED_ULTRA -D__SAMV71Q21B__ -Dprintf=iprintf -Dscanf=iscanf"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros"
+                  value="NDEBUG;__SAMV71Q21B__;scanf=iscanf;ARM_MATH_CM7=true;printf=iprintf;BOARD=SAMV71_XPLAINED_ULTRA"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-pipe -fno-strict-aliasing -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror-implicit-function-declaration -Wpointer-arith -std=gnu99 -ffunction-sections -fdata-sections -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Wlong-long -Wunreachable-code -Wcast-align --param max-inline-insns-single=500 -mfloat-abi=softfp -mfpu=fpv5-sp-d16 -fdata-sections"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include" value=""/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories"
+                  value="../src/ASF/thirdparty/CMSIS/Lib/GCC"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries" value="libarm_cortexM7lfsp_math_softfp;libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="false"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Xlinker --defsym=STACK_SIZE=0x400 -T../src/ASF/sam/utils/linker_scripts/samv71/samv71q21/gcc/flash.ld"/>
+      </ARM-LD>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="400000-5fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+    </conf>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAMV71Q21B</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>ARM</languageToolchain>
+        <languageToolchainVersion>6.3.1</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAMV71_DFP" vendor="Microchip" version="4.2.60"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <item path="../src/ASF/common/boards/board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/genclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/osc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/pll.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/genclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/osc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/pll.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/samv71/sysclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/clock/sysclk.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/gpio/gpio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/gpio/sam_gpio/sam_gpio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/ioport/ioport.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/ioport/sam/ioport_pio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/sam_uart/uart_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/services/serial/serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/interrupt/interrupt_sam_nvic.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/parts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/common/utils/stdio/stdio_serial/stdio_serial.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/boards/samv71_xplained_ultra/led.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/boards/samv71_xplained_ultra/samv71_xplained_ultra.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/components/ethernet_phy/documentation.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/components/ethernet_phy/ksz8061rnb/ethernet_phy.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/gmac/gmac.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/mpu/mpu.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pio/pio.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pio/pio_handler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pmc/pmc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/pmc/sleep.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/tc/tc.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/uart/uart.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/drivers/usart/usart.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/acc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/aes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/afec.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/chipid.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/dacc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/efc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/gpbr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/hsmci.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/i2sc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/icm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/isi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/matrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/mcan.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/mlb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pmc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/pwm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/qspi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rstc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rswdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/rtt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/sdramc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/smc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/spi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/ssc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/supc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/tc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/trng.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/twihs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/uart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/usart.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/usbhs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/utmi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/component/xdmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/acc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/aes.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/afec0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/afec1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/chipid.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/dacc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/efc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/gpbr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/hsmci.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/i2sc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/icm.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/isi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/matrix.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mcan1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/mlb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioa.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/piob.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/piod.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pioe.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pmc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/pwm1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/qspi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rstc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rswdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rtc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/rtt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/sdramc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/smc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/spi0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/spi1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/ssc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/supc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/tc3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/trng.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/twihs2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart3.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/uart4.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart0.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usart2.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/usbhs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/utmi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/wdt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/instance/xdmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71j21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71n21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/pio/samv71q21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71j21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71n21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q19.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q19b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q20.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q20b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q21.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/include/samv71q21b.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/cmsis/samv71/source/templates/system_samv71.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/compiler.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/fpu/fpu.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/header_files/io.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/linker_scripts/samv71/samv71q21/gcc/flash.ld"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/make/Makefile.sam.in"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/mrepeat.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/preprocessor.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/stringz.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/preprocessor/tpaste.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/sam/utils/status_codes.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/ATMEL-disclaimer.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/CMSIS_END_USER_LICENCE_AGREEMENT.pdf"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_common_tables.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_const_structs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/arm_math.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_compiler.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_gcc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/cmsis_version.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/core_cm7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Include/mpu_armv7.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/GCC/libarm_cortexM7lfsp_math_softfp.a"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/Lib/license.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/CMSIS/README.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/CHANGELOG"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/README"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/contrib.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/rawapi.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/savannah.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/snmp_agent.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/doc/sys_arch.txt"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/autoip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/icmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/igmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/inet_chksum.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_addr.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4/lwip/ip_frag.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/api_msg.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/arch.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/debug.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/def.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dhcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/dns.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/err.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/init.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/mem.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/memp_std.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netbuf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netdb.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netif.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/netifapi.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/opt.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/pbuf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/raw.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sio.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_asn1.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_msg.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/snmp_structs.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sockets.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/stats.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/sys.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcp_impl.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/tcpip.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/timers.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip/udp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/etharp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/netif/ppp_oe.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/src/netif/FILES"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_check.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/lwip_unittests.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/tcp_helper.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/tcp/test_tcp_oos.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.c"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-1.4.1/test/unit/udp/test_udp.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/cc.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/arch/perf.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif/samv71_gmac.h"
+            ex="true"
+            overriding="false">
+      </item>
+      <item path="../src/asf.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_board.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_clock.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_eth.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/conf_uart_serial.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/config/lwipopts.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/ethernet.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/fs.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/fsdata.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/httpserver/httpd.h" ex="true" overriding="false">
+      </item>
+      <item path="../src/network/timer_mgt.h" ex="true" overriding="false">
+      </item>
+      <ARM-AR>
+        <property key="archiver-flags" value="-r"/>
+      </ARM-AR>
+      <ARM-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="suppress-warnings" value="false"/>
+      </ARM-AS>
+      <ARM-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+        <appendMe value="-DARM_MATH_CM7=true -DBOARD=SAMV71_XPLAINED_ULTRA -D__SAMV71Q21B__ -Dprintf=iprintf -Dscanf=iscanf"/>
+      </ARM-AS-PRE>
+      <ARM-CPP>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="disable-extra-code-exception" value="true"/>
+        <property key="disable-extra-code-generation" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="use-rodata" value="false"/>
+        <property key="verbose" value="false"/>
+      </ARM-CPP>
+      <ARM-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="called-functions-located" value="true"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/network/httpserver;../src/network;../src/ASF/sam/utils/cmsis/samv71/source/templates;../src/ASF/sam/utils/cmsis/samv71/include;../src/ASF/sam/components/ethernet_phy/ksz8061rnb;../src/ASF/sam/drivers/pio;../src/ASF/sam/utils;../src/ASF/sam/utils/header_files;../src/ASF/sam/utils/preprocessor;../src/ASF/thirdparty/CMSIS/Include;../src/ASF/thirdparty/CMSIS/Lib/GCC;../src/ASF/sam/utils/fpu;../src/ASF/common/utils;../src/ASF/sam/drivers/gmac;../src/ASF/sam/drivers/uart;../src/ASF/common/services/ioport;../src/ASF/common/services/clock;../src/ASF/sam/drivers/pmc;../src/ASF/common/utils/stdio/stdio_serial;../src/ASF/common/services/serial/sam_uart;../src/ASF/common/services/serial;../src/ASF/sam/drivers/usart;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/lwip;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include;../src/ASF/thirdparty/lwip/lwip-1.4.1/src/include/ipv4;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include;../src/ASF/thirdparty/lwip/lwip-port-1.4.1/sam/include/netif;../src/ASF/sam/drivers/tc;../src/ASF/sam/boards/samv71_xplained_ultra;../src/ASF/sam/boards;../src/ASF/common/boards;../src/ASF/common/services/gpio;../src/ASF/sam/drivers/mpu;../src/config"/>
+        <property key="extra-warnings" value="false"/>
+        <property key="fast-math" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="position-independent" value="false"/>
+        <property key="preprocessor-macros"
+                  value="DEBUG;__SAMV71Q21B__;scanf=iscanf;ARM_MATH_CM7=true;printf=iprintf;BOARD=SAMV71_XPLAINED_ULTRA"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="unsafe-math" value="false"/>
+        <property key="verbose" value="false"/>
+        <appendMe value="-pipe -fno-strict-aliasing -Wall -Wstrict-prototypes -Wmissing-prototypes -Werror-implicit-function-declaration -Wpointer-arith -std=gnu99 -ffunction-sections -fdata-sections -Wchar-subscripts -Wcomment -Wformat=2 -Wimplicit-int -Wmain -Wparentheses -Wsequence-point -Wreturn-type -Wswitch -Wtrigraphs -Wunused -Wuninitialized -Wunknown-pragmas -Wfloat-equal -Wundef -Wshadow -Wbad-function-cast -Wwrite-strings -Wsign-compare -Waggregate-return -Wmissing-declarations -Wformat -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Wlong-long -Wunreachable-code -Wcast-align --param max-inline-insns-single=500 -mfloat-abi=softfp -mfpu=fpv5-sp-d16 -fdata-sections -g3"/>
+      </ARM-GCC>
+      <ARM-Global>
+        <property key="bin" value="true"/>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="processor-mode" value="-mthumb"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-include" value=""/>
+      </ARM-Global>
+      <ARM-LD>
+        <property key="additional-specs" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories"
+                  value="../src/ASF/thirdparty/CMSIS/Lib/GCC"/>
+        <property key="fast-math" value="false"/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="input-libraries" value="libarm_cortexM7lfsp_math_softfp;libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="position-independent" value="false"/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="size-optimized-library" value="false"/>
+        <property key="sram-segment" value=""/>
+        <property key="unsafe-math" value="false"/>
+        <appendMe value="-Xlinker --defsym=STACK_SIZE=0x400 -T../src/ASF/sam/utils/linker_scripts/samv71/samv71q21/gcc/flash.ld"/>
+      </ARM-LD>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="400000-5fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+    </conf>
+  </confs>
+</configurationDescriptor>
